@@ -19,3 +19,7 @@ print(tup) # (10, 20, 30)
 li = list(map(int,input().split())) # 10 11 12 13
 print([i for i in li if i%2 == 0]) # [10, 12]
 
+li1 = tuple(map(int,input().split())) # 10 20 30 40
+print(li1) #  (10, 20, 30, 40)
+
+
