@@ -31,5 +31,13 @@ def disp(*args):
 disp(10,20,30)
 
 #Unpacks a list (or any iterable) into separate arguments.
+def add(a,b,c):
+    print(a,b,c)
+add(*[10,20,30])
+
+#Unpack part of a list into a variable.
+li = ['Krishna',10,20,30,40,'Patil']
+fname, *scores , lname = li
+print(fname, scores , lname )
 
 

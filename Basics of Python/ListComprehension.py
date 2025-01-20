@@ -30,3 +30,7 @@ print(li) # [[10,20],[30,40],[50,60]]
 new_li = [ele for sublist in li for ele in sublist]
 print(new_li) #[10, 20, 30, 40, 50, 60]
 
+li4 = [[1,2],[3,4]]
+li5= [ele if ele%2==0 else 'no' for i in li1 if len(i)>2 for ele in i]
+print(li5)
+
