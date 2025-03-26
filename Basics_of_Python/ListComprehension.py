@@ -32,5 +32,5 @@ print(new_li) #[10, 20, 30, 40, 50, 60]
 
 li4 = [[1,2],[3,4]]
 li5= [ele if ele%2==0 else 'no' for i in li4 if len(i)>2 for ele in i]
-print(li5)
+print(li5) #[]
 
