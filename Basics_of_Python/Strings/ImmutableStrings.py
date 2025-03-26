@@ -29,7 +29,7 @@ print(s4,id(s4)) # World 2878409256336
 print('s3 ID of H:',id(s3[0])) # s3 ID of H: 140731400190768
 print('s4 ID of W:',id(s4[0])) # s4 ID of W: 140731400191488
 
-print('s4 ID of o:',id(s4[1])) # s4 ID of W: 140731400192640
+print('s4 ID of o:',id(s4[1])) # s4 ID of o: 140731400192640
 print('s3 ID of o:',id(s3[-1])) # s3 ID of o: 140731400192640
 
 print('s3 ID of l:',id(s3[2])) # s3 ID of l: 140731400192496
