@@ -4,7 +4,7 @@ print(a,type(a))
 b=int(a)
 print(b,type(b))
 
-#str ti integer conversion is not allowed
+#str to integer conversion is not allowed
 x='XYZ'
 print(x,type(x))
 #y=int(x)
