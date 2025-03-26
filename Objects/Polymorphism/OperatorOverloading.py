@@ -20,7 +20,7 @@ d1 = Demo1()
 d2 = Demo2()
 '''
 1. In python if print reference variable then internally python will invoke __str__() which always return string reperentation of an address of an object.
-2. In the above examples we have overridden __str methods in their respective classes.
+2. In the above examples we have overridden __str__ methods in their respective classes.
 '''
 
 print(d1)  
