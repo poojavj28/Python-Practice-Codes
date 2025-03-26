@@ -1,6 +1,6 @@
 '''
 Syntax:
-for control_variable in iterable_object\
+for control_variable in iterable_object
 
 '''
 
