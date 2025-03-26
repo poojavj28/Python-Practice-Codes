@@ -1,6 +1,6 @@
 '''
-1. In List we can stroe Homogeneous as well as Hetrogeneous Data.
-2. In List we can stroe Duplicate values.
+1. In List we can store Homogeneous as well as Hetrogeneous Data.
+2. In List we can store Duplicate values.
 3. List is an Ordered Collection of Data: Order of insertion will remain as it in the output.
 4. Lists are Mutable :Once we declare the list we can modify it.
 '''
@@ -24,7 +24,7 @@ print(li1) # [10, 15, 44.45, True, 'Kodnest', 20, 300]
 print(2000 in li1) #False
 print('Kodnest' in li1) #True
 
-#pop(): Without argument will delete and return late ele. from the list
+#pop(): Without argument will delete and return last ele. from the list
 removed_ele = li1.pop()
 print(removed_ele) # 300
 print(li1) # [10, 15, 44.45, True, 'Kodnest', 20]
