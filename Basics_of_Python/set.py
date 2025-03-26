@@ -1,6 +1,6 @@
 '''
-1. In Set we can stroe Homogeneous as well as Hetrogeneous Data.
-2. In Set we can not stroe Duplicate values.
+1. In Set we can store Homogeneous as well as Hetrogeneous Data.
+2. In Set we can not store Duplicate values.
 3. Set is an UnOrdered Collection of Data: Order of insertion will not remain as it is in the output.
 4. Set does not support indexing of data.
 5. Set are Mutable :Once we declare the Set we can modify it.

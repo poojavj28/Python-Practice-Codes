@@ -1,6 +1,6 @@
 '''
-1. In Tuples we can stroe Homogeneous as well as Hetrogeneous Data.
-2. In Tuples we can stroe Duplicate values.
+1. In Tuples we can store Homogeneous as well as Hetrogeneous Data.
+2. In Tuples we can store Duplicate values.
 3. Tuples are Ordered Collection of Data: Order of insertion will remain as it in the output. 
 4. Tuples are Immutable :Once we declare the Tuples we can not modify it.
 '''
@@ -29,7 +29,7 @@ print(tup,type(tup)) # (10,) <class 'tuple'>
 
 new_tup = (10,20,30,40)
 # ele1 = new_tup[0]
-#ele2  = new_tup[1]
+# ele2  = new_tup[1]
 
 #Unpacking of tuple
 ele1,ele2,ele3,ele4 = new_tup

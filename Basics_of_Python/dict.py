@@ -1,8 +1,8 @@
 '''
-1. In dict we can stroe Homogeneous as well as Hetrogeneous Data.
-2. In dict we can stroe Duplicate values.
+1. In dict we can store Homogeneous as well as Hetrogeneous Data.
+2. In dict we can store Duplicate values.
 3. dict is an Ordered Collection of Data: Order of insertion will remain as it in the output.
-4. dict are Mutable :Once we declare the list we can modify it.
+4. dict are Mutable :Once we declare the dict we can modify it.
 '''
 
 
@@ -11,7 +11,6 @@ d1 = {'name':'Priya','age':27,'phone':7338066754,'age':29}
 print(d1,type(d1)) # {'name': 'Priya', 'age': 29, 'phone': 7338066754} <class 'dict'>
 
 #In dict we cannot store duplicate keys.
-#
 d1['name'] ='Pooja'
 print(d1) # {'name': 'Pooja', 'age': 27, 'phone': 7338066754}
 
